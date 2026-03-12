@@ -1,3 +1,5 @@
+#Пример Join запроса,показывает соединение клиентов и заказов
+
 SELECT 
 c.first_name,
 c.last_name,
@@ -9,7 +11,7 @@ JOIN orders o
 ON c.customer_id = o.customer_id
 ORDER BY o.order_date DESC;
 
-
+#Пример сложного запроса с несколькими объелинениями
 
 SELECT 
 p.category,
